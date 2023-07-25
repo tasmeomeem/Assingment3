@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment_3</title>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind-CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font poppins -->
+    <link href="./tailwind.config.js">
+    <!-- Bootstrap-5 Cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Fontawsome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar section -->
+    <section class="container my-10 mx-auto lg:px-10 border-none ">
+        <div>
+            <div class="navbar justify-between bg-orange-600 rounded-full ">
+                <nav class="flex gap-5 font-semibold lg:pl-10 xlg:pl-48">
+                    <a href="">Home</a>
+                    <a href="">About us</a>
+                    <a href="">Shop</a>
+                    <a href="">All friuts</a>
+                </nav>
+                <div class="flex gap-4">
+                    <div>
+                        <img src="images/logo.png" type="logo" class="">
+                    </div>
+                    <div>
+                        <p class="font-semibold text-2xl">Fruit Burst</p>
+                    </div>
+                </div>
+
+                <div class="md:hidden lg:flex gap-2 lg:pr-6 xlg:56 hidden">
+                    <div class="form-control ">
+                        <!-- <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto"  /> -->
+                        <div class="flex items-center border bg-white rounded-lg">
+                            <input
+                              type="text"
+                              placeholder="Search..."
+                              class="px-4 py-2 w-full rounded-lg focus:outline-none"
+                            />
+                            <button class="px-4 py-2 rounded-lg text-black">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section  class="container mt-10 mx-auto">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="hero min-h-screen" style="background-image: url(images/banner2.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="hero min-h-screen" style="background-image: url(images/banner3.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="hero min-h-screen" style="background-image: url(images/banner4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto ">
+        <div class="lg:grid lg:grid-cols-5 bg-white lg:drop-shadow lg:first-letter lg:rounded-md  lg:max-w-6xl lg:mx-auto lg:relative lg:bottom-32 lg:p-10 hidden">
+            <img src="images/fruit1.png">
+            <img src="images/fruit2.png">
+            <img src="images/fruit3.png">
+            <img src="images/fruit4.png">
+            <img src="images/fruit5.png">
+        </div>
+    </section>
+    
+</body>
+</html>
