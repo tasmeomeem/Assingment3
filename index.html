@@ -18,42 +18,50 @@
 <body>
     <!-- Navbar section -->
     <section class="container my-10 mx-auto lg:px-10 border-none ">
-        <div>
-            <div class="navbar justify-between bg-orange-600 rounded-full">
-                <nav class="flex gap-5 font-semibold lg:pl-10 xlg:pl-48">
-                    <a href="">Home</a>
-                    <a href="">About us</a>
-                    <a href="">Shop</a>
-                    <a href="">All friuts</a>
-                </nav>
-                <div class="lg:flex lg:gap-4">
-                    <div>
-                        <img src="images/logo.png" type="logo" class="">
-                    </div>
-                    <div>
-                        <p class="font-semibold text-2xl">Fruit Burst</p>
-                    </div>
+
+        <div class="navbar bg-orange-600 rounded-full">
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All friuts</a></li>
+                </ul>
+                
+            </div>
+            <div class="navbar-center ">
+                <img src="images/logo.png">
+                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+            </div>
+            <div class="navbar-end">
+                <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All friuts</a></li>
+                    </ul>
                 </div>
 
-                <div class="md:hidden lg:flex gap-2 lg:pr-6 xlg:56 hidden">
-                    <div class="form-control ">
-                        <!-- <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto"  /> -->
-                        <div class="flex items-center border bg-white rounded-lg">
-                            <input
-                              type="text"
-                              placeholder="Search..."
-                              class="px-4 py-2 w-full rounded-lg focus:outline-none"
-                            />
-                            <button class="px-4 py-2 rounded-lg text-black">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                        </div>
-                    </div>
+                <div class="flex items-center border bg-white rounded-lg">
+                    <input
+                      type="text"
+                      placeholder="Search..."
+                      class="px-4 py-2 w-full rounded-lg focus:outline-none"
+                    />
+                    <button class="px-4 py-2 rounded-lg text-black">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </div>
             </div>
         </div>
+            </div>
+        </div>
     </section>
-    
+
 
     <!-- Carousel section -->
     <section  class="container mt-10 mx-auto">
@@ -138,7 +146,7 @@
         </div>
     </section>
 
-<!-- Deal section -->
+    <!-- Deal section -->
     <section class="container mx-auto">
         <div class="flex flex-col lg:flex-row lg:justify-between sm: mx-3 ">
             <div class="lg:text-left text-center">
@@ -178,7 +186,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Fruit Price with Modal -->
     <section class="container mx-auto">
@@ -361,7 +368,6 @@
         </div>
     </section>
 
-
     <!-- Meet the Team -->
     <section class="container mx-auto py-16">
         <div>
@@ -442,7 +448,6 @@
         </div>
     </section>
 
-
     <!-- Nutrition section -->
     <section class="container mx-auto ">
         <div>
@@ -517,7 +522,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Footer section -->
     <section class="container mx-auto bg-black">
